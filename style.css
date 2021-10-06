@@ -250,3 +250,7 @@ a{
     height: 200px;
     object-fit: cover;
 }
+
+.test{
+    color: red;
+}
