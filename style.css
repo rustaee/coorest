@@ -42,6 +42,14 @@ a{
     justify-content: center;
 }
 
+.navbar-nav{
+    flex-direction: row;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
 .login-btn{
     display: inline-block;
 }
@@ -203,4 +211,42 @@ a{
 
 .individual__links a{
     margin-right: 30px;
+}
+
+/* Carbon Credit */
+.carbon-credit{
+    padding-bottom: 50px;
+}
+
+.carbon-credit__description{
+    width: 58%;
+}
+
+.carbon-credit__media{
+    width: 40%;
+    overflow: hidden;
+}
+
+.carbon-credit__media video{
+    width: 100%;
+}
+
+/* Projects */
+.projects{
+    text-align: center;
+}
+
+.projects .card{
+    color: var(--primary-color);
+    text-align: left;
+}
+
+.projects__details .card-text{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.projects__details img{
+    height: 200px;
+    object-fit: cover;
 }
