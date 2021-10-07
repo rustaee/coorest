@@ -251,6 +251,77 @@ a{
     object-fit: cover;
 }
 
-.test{
-    color: red;
+/* Road map */
+.roadmap img{
+    width: 90%;
+    padding-bottom: 30px;
+}
+
+/* Team */
+.team__header{
+    text-align: center;
+}
+
+.carousel-item{
+    flex-wrap: nowrap;
+}
+
+.carousel-item .card{
+    width: 33%;
+}
+
+.carousel-item .card img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-item .avatars{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carousel-item .avatars .card{
+    width: 31%;
+    color: var(--primary-color)
+}
+
+.carousel-item h3{
+    font-size: 0.9rem;
+    color: #1a1a1a;
+}
+
+.carousel-control-prev{
+    left: -100px;
+}
+
+.carousel-control-next{
+    right: -100px;
+}
+
+/* FAQ */
+.faq__header {
+    text-align: center;
+}
+
+.faq .accordion-item{
+    background-color: transparent;
+    border: none;
+    border-left: 2px solid var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.accordion-button{
+    border-radius: 0;
+    background: transparent;
+}
+
+.accordion-button:focus{
+    outline: none;
+    border: none;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
