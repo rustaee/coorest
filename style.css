@@ -44,6 +44,7 @@ a{
 
 .navbar-nav{
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .navbar-nav li{
@@ -52,6 +53,14 @@ a{
 
 .login-btn{
     display: inline-block;
+}
+
+.collapse{
+    display: flex;
+}
+
+.collapse{
+    text-align: right;
 }
 
 .button, .button-w:hover{
@@ -218,12 +227,7 @@ a{
     padding-bottom: 50px;
 }
 
-.carbon-credit__description{
-    width: 58%;
-}
-
 .carbon-credit__media{
-    width: 40%;
     overflow: hidden;
 }
 
@@ -357,4 +361,61 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        padding: 10px;
+    }
+
+    small{
+        font-size: 0.7rem;
+    }
+
+    .collapse, .login-btn{
+        display: unset;
+        text-align: left;
+    }
+
+    .header{
+        margin-top: 60px;
+    }
+
+    .header__image{
+        display: none;
+    }
+
+    .counter-wrapper h1{
+        font-size: 1.5rem;
+    }
+
+    .counter__number >span{
+        font-size: 1.5rem;
+    }
+
+    .investing__header h1{
+        font-size: 2rem;
+    }
+
+    .usecase__details{
+        padding: 2px;
+    }
+
+    .usecase__details h4{
+        font-size: 1rem;
+    }
+
+    .carousel-item .avatars .card{
+        width: 33%;
+    }
+
+    
+.carousel-control-prev{
+    left: -20px;
+}
+
+.carousel-control-next{
+    right: -20px;
+}
+    
 }
